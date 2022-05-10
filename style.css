@@ -1,0 +1,47 @@
+body{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+form input{
+    border: 2px solid black;
+    padding: 5px;
+    background-color: transparent;
+    margin-top: 10px;
+}
+
+form label{
+    border: 2px solid black;
+    padding: 5px;
+}
+
+.retour{
+    position: absolute;
+    bottom: 20%;
+    right: 20%;
+    border: 2px solid black;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+}
+  
+th {
+    height: 70px;
+}
+
+tr{
+    height: 30px;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
